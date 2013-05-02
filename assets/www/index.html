@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta name="viewport" content="width=320; user-scalable=no" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="js/phonegap-1.2.0.js"></script>
+<script type="text/javascript" charset="utf=8" src="js/jquery-1.7.min.js"></script>
+<script type="text/javascript" charset="utf=8" src="js/main.js"></script>
+<style>
+input[type=button] {
+	width: 100%;
+	padding: 10px;
+}
+</style>
+</head>
+
+<body onload="init()">
+
+	<input type="button" id="newPicLink" value="Take New Picture">
+	<input type="button" id="existingPicLink" value="Pick Old Picture">
+	
+	<div id="status"></div>
+	<img id="camImg">
+	
+</body>
+</html>
